@@ -1,0 +1,89 @@
+#sidebar {
+	height: 100%;
+	width: 35%;
+	padding: 0 0.75rem 5rem 0.75rem;
+	border-right: 2px solid var(--secondary);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	overflow-y: scroll;
+}
+
+.toggler {
+	cursor: pointer;
+	color: var(--secondary);
+	transition: all 0.2s ease;
+}
+
+.toggler:hover {
+	scale: 1.2;
+}
+
+form {
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+}
+
+label {
+	margin: 0.5rem 0 0.2rem 0;
+}
+
+input[type="text"] {
+	height: 1.5rem;
+	padding-left: 0.5rem;
+	font-size: 1rem;
+}
+
+textarea {
+	padding-left: 0.5rem;
+}
+
+input[type="text"],
+textarea {
+	color: var(--secondary);
+	background-color: var(--primary);
+	border: 1px solid var(--secondary);
+}
+
+input[type="text"]:focus,
+textarea:focus {
+	background-color: #000;
+	outline: 1px solid var(--secondary);
+}
+
+::placeholder {
+	font-size: 0.9rem;
+	color: #aaa;
+}
+
+/* EDIT DIVS */
+.exp-edit,
+.edu-edit {
+	width: 90%;
+	margin: 1rem 0;
+	padding: 0.5rem;
+	text-align: center;
+	border: 1px solid var(--secondary);
+}
+
+/* BUTTONS */
+input[type="submit"],
+button {
+	cursor: pointer;
+	height: fit-content;
+	width: fit-content;
+	margin: 1rem auto;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	color: var(--secondary);
+	background-color: #000;
+	border: 1px solid var(--secondary);
+	transition: all 0.2s ease;
+}
+
+input[type="submit"]:hover,
+button:hover {
+	scale: 1.1;
+	box-shadow: 0 0 0.5rem var(--secondary);
+}
