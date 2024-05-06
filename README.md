@@ -6,6 +6,6 @@ Resume builder web app, built with React as part of the Odin Project.
 
 Decided to go with 2 scrollbars (one specifically for the sidebar area), in order to optimize the user experience.
 
-Fairly straight forward application, enter information on the left, and the information is formatted and displayed on the right inside of the "resume". 
+Fairly straight forward CRUD application, enter information on the left, and the information is formatted and displayed on the right inside of the "resume". 
 Lists of experience and education entries will show under the forms, and the delete button allows for quick clearing so you don't have to start all the way over.
 Sample data is imported on load, but is easily replaced or cleared by the user. 
